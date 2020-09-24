@@ -1,0 +1,5 @@
+sudo groupadd newGroup				add new group
+usermod -a -G newGroup newUsername		add user
+usermod -g newGroup1 newUsername1		change user primary group
+useradd -G newGroup2 newUsername2		create user and add to group
+usermod -a -G grp1,grp2,grp3 newUsername3	add user to 3 groups
